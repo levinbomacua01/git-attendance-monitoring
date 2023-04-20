@@ -33,6 +33,15 @@ class StudentsController extends Controller
         return view('students/create',compact('generated_student_no'));
     }
 
+    // add list function 
+     
+     public function list()
+    {
+
+        $student_list = Students::All();
+
+        return view('students/list',compact('student_list'));
+    }
     /**
      * Store a newly created resource in storage.
      *

@@ -64,4 +64,8 @@ Date: 03-16-23
 	- Create student table migration 
   - creating attendance table migration
   - editing for the tables formats for the attendance monitoring
-  - then adding the 
+  
+
+Date: 04-20-23 
+-completing the student lists identifications 
+- creating attendance log for students entries 

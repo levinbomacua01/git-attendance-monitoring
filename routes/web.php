@@ -22,6 +22,11 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-// Students
+// Add Students/create
 Route::get('students/create',[App\Http\Controllers\StudentsController::class, 'create'])->name('create');
+
+// add student list 
+Route::get('students/list',[App\Http\Controllers\StudentsController::class, 'list'])->name('list');
+
+// save students sa database 
 Route::post('students/store',[App\Http\Controllers\StudentsController::class, 'store'])->name('store');

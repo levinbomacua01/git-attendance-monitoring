@@ -20,3 +20,15 @@ class Attendance extends Model
 		'afternoon_time_out',
     ];
 }
+  
+ ?> 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
